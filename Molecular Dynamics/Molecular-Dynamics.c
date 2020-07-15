@@ -275,7 +275,6 @@ void PhysicalProperties (particle *s) // Creates a file with the K, U and total 
         fprintf(fid, " %lf  %lf  %lf %lf  \n",s[1].dt*s[1].it, KineticEnergy(s), potential(s) ,KineticEnergy(s)+potential(s));
     }
     fclose(fid);
-    printf("Hello world!\n");
 }
 
 void VelocityDistribution (particle *s) // Creates a histogram with the velocity distribution and a file with the system entropy for a time interval. Check the Maxwell-Boltzman distribution in the histogram.
@@ -350,7 +349,7 @@ int main()
 {   int n=0,j,m=0,i;
     srand(time(NULL));
     particle s[Nc*Nc];
-    for (i=0; i<= Nc*Nc-1 ; i++)//inicializa la posicion de las particulas
+    for (i=0; i<= Nc*Nc-1 ; i++) // Initialize the positions of the particles
     {
         if(m==Nc)
         {

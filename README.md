@@ -8,4 +8,4 @@ It has a simulation of N particles trapped inside a box of volume V, interacting
 
 # 2- Quantum wave packet.
 
-It has a simulation of the interaction of a quantum wave packet with different potentials. The code is ready to be run with a Single wall potential, double well potential and without potential. 
+It has simulations of the interaction of a quantum wave packet with different potentials. The code is ready to be run with a Single wall potential, double well potential and without potential. 
